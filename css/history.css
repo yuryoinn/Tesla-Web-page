@@ -1,0 +1,362 @@
+
+/* =================== Header - banner =================== */
+
+header {
+    position: fixed;
+    width: 100%;
+}
+
+.banner {
+    background-color: #fff;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.lnb {
+    width: 1300px;
+    margin: auto;
+    text-align: center;
+}
+
+.lnb h1 {
+    color: #000;
+    font-family: 'Exo 2', sans-serif;
+    margin: 15px;
+    font-size: 17px;
+}
+
+/* =================== Header - nav =================== */
+
+nav {
+    width: 1300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    padding-top: 18px;
+}
+
+.gnb {
+    display: flex;
+}
+
+.gnb li {
+    padding-top: 17px;
+}
+
+.gnb li a {
+    margin: 50px;
+    color: #fff;
+}
+
+.gnb li a:hover {
+    text-decoration: underline;
+}
+
+.gnb li a:last-child {
+    margin-right: 0;
+}
+
+/* =================== Main - intro =================== */
+
+.intro {
+    height: 100vh;
+    background: url("../img/history.jpg") no-repeat center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.intro .heading {
+    color: #fff;
+    text-align: center;
+}
+
+.intro .heading h1 {
+    font-size: 40px;
+    line-height: 1.6em;
+    padding-top: 10px;
+}
+
+.intro .heading h1 em {
+    font-style: normal;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 500;
+    font-size: 56px;
+}
+
+.intro .heading p {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #ddd;
+}
+
+/* Mouse Wheele */
+
+.mouse {
+    border: 2px solid #fff;
+    position: absolute;
+    width: 25px;
+    height: 35px;
+    border-radius: 30px;
+    margin: 16px 634px;
+}
+
+.wheele {
+    position: absolute;
+    width: 2.5px;
+    height: 9px;
+    background-color: #fff;
+    border-radius: 4px;
+    top: 5.5px;
+    left: 9.5px;
+    animation: wheele 1.2s linear infinite;
+}
+
+@keyframes wheele {
+    0% {
+        top: 5.5px;
+    }
+    50% {
+        top: 11px;
+    }
+    100% {
+        top: 5.5px;
+    }
+}
+
+/* =================== Section - history-1 =================== */
+
+.history-1 {
+    height: 100vh;
+    background: url("../img/history-img1.jpg") no-repeat center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.history-1 .heading {
+    color: #fff;
+    text-align: center;
+}
+
+.history-1 .heading p {
+    padding-top: 8px;
+    font-size: 26px;
+    line-height: 2em;
+    font-weight: 500;
+}
+
+.history-1 .heading p span {
+    font-size: 20px;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 400;
+}
+
+/* =================== Section - history-2 =================== */
+
+.history2-content {
+    display: flex;
+    padding: 150px 0;
+}
+
+.history2-content div {
+    padding: 30px;
+}
+
+.desc {
+    text-align: center;
+    flex: 2.6;
+}
+
+.desc h2 {
+    font-size: 40px;
+    margin-bottom: 35px;
+}
+
+.desc p {
+    font-size: 17px;
+    line-height: 1.9em;
+}
+
+.history2-content .photo {
+    padding-top: 70px;
+    padding-left: 45px;
+}
+
+.photo {
+    flex: 2.4;
+}
+
+.photo img {
+    width: 100%;
+    border-radius: 40% 60% 65% 40% / 45% 45% 55% 60%;
+}
+
+/* =================== Section - history-3 =================== */
+
+.history-3 {
+    border-bottom: 1px solid #ddd;
+}
+
+.history3-content {
+    display: flex;
+    padding: 150px 0;
+}
+
+.history3-content div {
+    padding: 30px;
+}
+
+.history3-content .desc h2 {
+    line-height: 1.6em;
+    margin-bottom: 30px;
+}
+
+.history3-content .photo {
+    padding-top: 140px;
+    padding-right: 55px;
+}
+
+/* =================== Section - callaction =================== */
+
+.callaction {
+    height: 450px;
+    background: url("../img/callaction-img1.jpg") no-repeat center center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.callaction-heading {
+    text-align: center;
+    position: relative;
+}
+
+.callaction-heading h2 {
+    color: #fff;
+    font-size: 48px;
+    line-height: 1.4em;
+}
+
+/* =================== Section - history-4 =================== */
+
+.history4-content {
+    display: flex;
+    padding: 30px 0 150px 0;
+}
+
+.history-4 h2 {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 100px;
+    line-height: 1.4em;
+}
+
+.history4-content div {
+    padding: 30px;
+}
+
+.history4-content .desc {
+    flex: 2.5;
+}
+
+.history4-content .photo {
+    flex: 2.5;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+/* =================== Section - history-5 =================== */
+
+.history-5 {
+    height: 270px;
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.history5-heading {
+    text-align: center;
+}
+
+.history5-heading h3 {
+    color: #000;
+    font-size: 26px;
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+
+.history5-heading h3 span {
+    font-weight: 500;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.btns a {
+    background-color: #000;
+    display: inline-block;
+    width: 100px;
+    padding: 8px;
+    border-radius: 5px;
+    margin: 7px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* =================== Footer =================== */
+
+footer {
+    background-color: #000;
+    padding: 40px 0;
+}
+
+.footer-content {
+    display: flex;
+}
+
+.footer-content ul {
+    text-align: center;
+}
+
+.footer-content ul li {
+    line-height: 1.8em;
+}
+
+.footer-content ul li:first-child {
+    color: #eee;
+    font-weight: 500;
+}
+
+.footer-content ul li a {
+    color: #959595;
+    font-weight: 300;
+}
+
+.community {
+    flex: 2;
+    padding-left: 20px;
+}
+
+.help {
+    flex: 3;
+    padding-right: 20px;
+}
+
+.help li {
+    color: #959595;
+}
+
+.help li:last-child {
+    margin-top: 25px;
+    color: #fff;
+}
+
+

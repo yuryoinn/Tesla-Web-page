@@ -1,0 +1,228 @@
+/* =================== Header - banner =================== */
+
+header {
+    position: fixed;
+    width: 100%;
+}
+
+.banner {
+    background-color: #fff;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.lnb {
+    width: 1300px;
+    margin: auto;
+    text-align: center;
+}
+
+.lnb a {
+    color: #000;
+    font-family: 'Exo 2', sans-serif;
+    margin: 40px;
+    font-size: 14px;
+}
+
+.lnb a:hover {
+    text-decoration: underline;
+}
+
+/* =================== Header - nav =================== */
+
+nav {
+    width: 1300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    padding-top: 18px;
+}
+
+.gnb {
+    display: flex;
+}
+
+.gnb li {
+    padding-top: 17px;
+}
+
+.gnb li a {
+    margin: 50px;
+    color: #fff;
+}
+
+.gnb li a:hover {
+    text-decoration: underline;
+}
+
+.gnb li a:last-child {
+    margin-right: 0;
+}
+
+/* =================== Main - intro =================== */
+
+.intro {
+    height: 100vh;
+    background: url("../img/supply-img.jpeg") no-repeat center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.intro .heading {
+    text-align: center;
+    padding-bottom: 350px;
+}
+
+.intro .heading h1 {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 40px;
+    line-height: 1.6em;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.intro .heading p {
+    font-size: 15px;
+    color: #fff;
+    font-family: 'Exo 2', sans-serif;
+    margin: 0;
+}
+
+/* Mouse Wheele */
+
+.mouse {
+    border: 2px solid #fff;
+    position: absolute;
+    width: 25px;
+    height: 35px;
+    border-radius: 30px;
+    margin: 16px 634px;
+}
+
+.wheele {
+    position: absolute;
+    width: 2.5px;
+    height: 9px;
+    background-color: #fff;
+    border-radius: 4px;
+    top: 5.5px;
+    left: 9.5px;
+    animation: wheele 1.2s linear infinite;
+}
+
+@keyframes wheele {
+    0% {
+        top: 5.5px;
+    }
+    50% {
+        top: 11px;
+    }
+    100% {
+        top: 5.5px;
+    }
+}
+
+
+/* =================== section - impact =================== */
+
+.impact-heading {
+    text-align: center;
+    padding-top: 150px;
+    margin-bottom: 100px;
+}
+
+.impact-heading h2 {
+    font-size: 30px;
+    font-family: 'Exo 2', sans-serif;
+    color: #000;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+.impact-heading p {
+    font-size: 13px;
+    color: #383838;
+    margin-bottom: 50px;
+}
+
+.impact-heading img {
+    text-align: center;
+    width: 1150px;
+    height: 650px;
+    border-radius: 10px;
+}
+
+.impact-content {
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.impact-content h2 {
+    font-size: 30px;
+    font-family: 'Exo 2', sans-serif;
+    color: #000;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+
+.impact-content p {
+    font-size: 13px;
+    color: #383838;
+    margin-bottom: 50px;
+}
+
+/* =================== Footer =================== */
+
+footer {
+    background-color: #000;
+    padding: 25px 0;
+}
+
+.footer-content {
+    display: flex;
+}
+
+.footer-content ul {
+    text-align: center;
+}
+
+.footer-content ul li {
+    line-height: 1.6em;
+}
+
+.footer-content ul li:first-child {
+    color: #eee;
+    font-weight: 500;
+}
+
+.footer-content ul li a {
+    font-size: 15px;
+    color: #959595;
+    font-weight: 300;
+}
+
+.community {
+    flex: 2;
+    padding-left: 20px;
+}
+
+.help {
+    flex: 3;
+    padding-right: 20px;
+}
+
+.help li {
+    color: #959595;
+}
+
+.help li:last-child {
+    margin-top: 35px;
+    color: #fff;
+}

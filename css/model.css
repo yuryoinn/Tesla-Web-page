@@ -1,0 +1,381 @@
+/* =================== Header - banner =================== */
+
+header {
+    position: fixed;
+    width: 100%;
+}
+
+.banner {
+    background-color: #fff;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.lnb {
+    width: 1300px;
+    margin: auto;
+    text-align: center;
+}
+
+.lnb a {
+    color: #000;
+    font-family: 'Exo 2', sans-serif;
+    margin: 40px;
+    font-size: 16px;
+}
+
+.lnb a:hover {
+    text-decoration: underline;
+}
+
+/* =================== Header - nav =================== */
+
+nav {
+    width: 1300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    padding-top: 18px;
+}
+
+.gnb {
+    display: flex;
+}
+
+.gnb li {
+    padding-top: 17px;
+}
+
+.gnb li a {
+    margin: 50px;
+    color: #fff;
+}
+
+.gnb li a:hover {
+    text-decoration: underline;
+}
+
+.gnb li a:last-child {
+    margin-right: 0;
+}
+
+/* =================== Main - intro =================== */
+
+.intro {
+    height: 100vh;
+    background: url("../img/model.jpg") no-repeat center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.intro .heading {
+    color: #fff;
+    text-align: center;
+}
+
+.intro .heading h1 {
+    font-size: 40px;
+    line-height: 1.6em;
+    padding-top: 30px;
+}
+
+.intro .heading h1 em {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+}
+
+.intro .heading p {
+    font-size: 25px;
+    margin-bottom: 15px;
+    color: #ddd;
+    font-family: 'Exo 2', sans-serif;
+}
+
+/* Mouse Wheele */
+
+.mouse {
+    border: 2px solid #fff;
+    position: absolute;
+    width: 25px;
+    height: 35px;
+    border-radius: 30px;
+    margin: 16px 634px;
+}
+
+.wheele {
+    position: absolute;
+    width: 2.5px;
+    height: 9px;
+    background-color: #fff;
+    border-radius: 4px;
+    top: 5.5px;
+    left: 9.5px;
+    animation: wheele 1.2s linear infinite;
+}
+
+@keyframes wheele {
+    0% {
+        top: 5.5px;
+    }
+    50% {
+        top: 11px;
+    }
+    100% {
+        top: 5.5px;
+    }
+}
+
+/* =================== Section - model-s =================== */
+
+.model-s {
+    height: 100vh;
+    background: url("../img/model-s.jpeg") no-repeat center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.model-s .heading {
+    color: #000;
+    text-align: center;
+    margin-bottom: 500px;
+}
+
+.model-s .heading h2 {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 40px;
+    line-height: 1.6em;
+    letter-spacing: 0.02em;
+}
+
+.model-s .heading p {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 20px;
+    color: #000;
+    font-weight: 300;
+    margin: 10px 0 0 0;
+}
+
+.model-s .btns {
+    position: relative;
+}
+
+.model-s .btns a {
+    text-align: center;
+    position: absolute;
+    background-color: #fff;
+    width: 200px;
+    padding: 10px;
+    border-radius: 40px;
+    margin: 7px;
+    color: #383838;
+    font-size: 12px;
+    font-weight: 500;
+    bottom: 20px;
+    left: 545px;
+}
+
+/* =================== Section - model-3 =================== */
+
+.model-3 {
+    height: 100vh;
+    background: url("../img/model-3.jpeg") no-repeat center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.model-3 .heading {
+    color: #000;
+    text-align: center;
+    margin-bottom: 500px;
+}
+
+.model-3 .heading h2 {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 40px;
+    line-height: 1.6em;
+    letter-spacing: 0.02em;
+}
+
+.model-3 .heading p {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 20px;
+    color: #000;
+    font-weight: 300;
+    margin: 10px 0 0 0;
+}
+
+.model-3 .btns {
+    position: relative;
+}
+
+.model-3 .btns a {
+    text-align: center;
+    position: absolute;
+    background-color: #000;
+    width: 200px;
+    padding: 10px;
+    border-radius: 40px;
+    margin: 7px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    bottom: 20px;
+    left: 545px;
+}
+
+/* =================== Section - model-x =================== */
+
+.model-x {
+    height: 100vh;
+    background: url("../img/model-x.jpeg") no-repeat center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.model-x .heading {
+    color: #000;
+    text-align: center;
+    margin-bottom: 530px;
+}
+
+.model-x .heading h2 {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 40px;
+    line-height: 1.6em;
+    letter-spacing: 0.02em;
+}
+
+.model-x .heading p {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 20px;
+    color: #000;
+    font-weight: 300;
+    margin: 10px 0 0 0;
+}
+
+.model-x .btns {
+    position: relative;
+}
+
+.model-x .btns a {
+    text-align: center;
+    position: absolute;
+    background-color: #fff;
+    width: 200px;
+    padding: 10px;
+    border-radius: 40px;
+    margin: 7px;
+    color: #383838;
+    font-size: 12px;
+    font-weight: 500;
+    bottom: 20px;
+    left: 545px;
+}
+
+/* =================== Section - model-y =================== */
+
+.model-y {
+    height: 100vh;
+    background: url("../img/model-y.jpeg") no-repeat center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.model-y .heading {
+    color: #000;
+    text-align: center;
+    margin-bottom: 500px;
+}
+
+.model-y .heading h2 {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 40px;
+    line-height: 1.6em;
+    letter-spacing: 0.02em;
+}
+
+.model-y .heading p {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 20px;
+    color: #000;
+    font-weight: 300;
+    margin: 10px 0 0 0;
+}
+
+.model-y .btns {
+    position: relative;
+}
+
+.model-y .btns a {
+    text-align: center;
+    position: absolute;
+    background-color: #000;
+    width: 200px;
+    padding: 10px;
+    border-radius: 40px;
+    margin: 7px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    left: 545px;
+}
+
+/* =================== Footer =================== */
+
+footer {
+    background-color: #000;
+    padding: 25px 0;
+}
+
+.footer-content {
+    display: flex;
+}
+
+.footer-content ul {
+    text-align: center;
+}
+
+.footer-content ul li {
+    line-height: 1.6em;
+}
+
+.footer-content ul li:first-child {
+    color: #eee;
+    font-weight: 500;
+}
+
+.footer-content ul li a {
+    font-size: 15px;
+    color: #959595;
+    font-weight: 300;
+}
+
+.community {
+    flex: 2;
+    padding-left: 20px;
+}
+
+.help {
+    flex: 3;
+    padding-right: 20px;
+}
+
+.help li {
+    color: #959595;
+}
+
+.help li:last-child {
+    margin-top: 35px;
+    color: #fff;
+}

@@ -1,0 +1,373 @@
+/* =================== Header - banner =================== */
+
+header {
+    position: fixed;
+    width: 100%;
+}
+
+.banner {
+    background-color: #fff;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.lnb {
+    width: 1300px;
+    margin: auto;
+    text-align: center;
+}
+
+.lnb a {
+    color: #000;
+    font-family: 'Exo 2', sans-serif;
+    margin: 40px;
+    font-size: 16px;
+}
+
+.lnb a:hover {
+    text-decoration: underline;
+}
+
+/* =================== Header - nav =================== */
+
+nav {
+    width: 1300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    padding-top: 18px;
+}
+
+.gnb {
+    display: flex;
+}
+
+.gnb li {
+    padding-top: 17px;
+}
+
+.gnb li a {
+    margin: 50px;
+    color: #fff;
+}
+
+.gnb li a:hover {
+    text-decoration: underline;
+}
+
+.gnb li a:last-child {
+    margin-right: 0;
+}
+
+/* =================== Main - intro =================== */
+
+.intro {
+    height: 100vh;
+    background: url("../img/model-3.jpeg") no-repeat center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.intro .heading {
+    text-align: center;
+    padding-bottom: 350px;
+}
+
+.intro .heading h1 {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 40px;
+    line-height: 1.6em;
+    color: #000;
+}
+
+.intro .heading p {
+    font-size: 25px;
+    color: #000;
+    font-family: 'Exo 2', sans-serif;
+    margin: 0;
+}
+
+.intro-desc {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 65px;
+}
+
+.intro-desc div {
+    margin: 50px;
+}
+
+.intro-desc .desc1 h3 {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.intro-desc .desc1 h3 span {
+    font-size: 30px;
+}
+
+.intro-desc .desc1 p {
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.intro-desc .desc2 h3 {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.intro-desc .desc2 h3 span {
+    font-size: 30px;
+}
+
+.intro-desc .desc2 p {
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.intro-desc .desc3 h3 {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.intro-desc .desc3 h3 span {
+    font-size: 30px;
+}
+
+.intro-desc .desc3 p {
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.intro-desc .desc4 h3 {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    color: #fff;
+}
+
+
+.intro-desc .desc4 p {
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+}
+
+/* Mouse Wheele */
+
+.mouse {
+    border: 2px solid #fff;
+    position: absolute;
+    width: 25px;
+    height: 35px;
+    border-radius: 30px;
+    margin: 16px 634px;
+}
+
+.wheele {
+    position: absolute;
+    width: 2.5px;
+    height: 9px;
+    background-color: #fff;
+    border-radius: 4px;
+    top: 5.5px;
+    left: 9.5px;
+    animation: wheele 1.2s linear infinite;
+}
+
+@keyframes wheele {
+    0% {
+        top: 5.5px;
+    }
+    50% {
+        top: 11px;
+    }
+    100% {
+        top: 5.5px;
+    }
+}
+
+/* =================== section - interier =================== */
+
+.interier {
+    background-color: #000;
+}
+
+.interier .heading {
+    text-align: center;
+    padding: 150px 0 100px 0;
+}
+
+.interier .heading h2 {
+    font-size: 40px;
+    font-family: 'Exo 2', sans-serif;
+    color: #fff;
+}
+
+.interier .heading p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.interier .desc {
+    text-align: center;
+    padding-top: 70px;
+}
+
+.interier .desc h3 {
+    font-size: 25px;
+    font-family: 'Exo 2', sans-serif;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.interier .desc p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #ddd;
+    padding-bottom: 130px;
+}
+
+/* =================== section - autopilot =================== */
+
+.autopilot .heading {
+    text-align: center;
+    padding: 150px 0 100px 0;
+}
+
+.autopilot .heading h2 {
+    font-size: 40px;
+    font-family: 'Exo 2', sans-serif;
+    color: #000;
+}
+
+.autopilot .heading p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+}
+
+.autopilot .desc {
+    text-align: center;
+    padding-top: 70px;
+}
+
+.autopilot .desc h3 {
+    font-size: 25px;
+    font-family: 'Exo 2', sans-serif;
+    color: #000;
+    margin-bottom: 30px;
+}
+
+.autopilot .desc p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #383838;
+    padding-bottom: 130px;
+}
+
+/* =================== section - dualmotor =================== */
+
+.dualmotor .heading {
+    text-align: center;
+    padding: 150px 0 100px 0;
+}
+
+.dualmotor .heading h2 {
+    font-size: 40px;
+    font-family: 'Exo 2', sans-serif;
+    color: #000;
+}
+
+.dualmotor .heading p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+}
+
+.dualmotor .desc {
+    text-align: center;
+    padding-top: 70px;
+}
+
+.dualmotor .desc h3 {
+    font-size: 25px;
+    font-family: 'Exo 2', sans-serif;
+    color: #000;
+    margin-bottom: 30px;
+}
+
+.dualmotor .desc p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #383838;
+    padding-bottom: 130px;
+}
+
+/* =================== Footer =================== */
+
+footer {
+    background-color: #000;
+    padding: 25px 0;
+}
+
+.footer-content {
+    display: flex;
+}
+
+.footer-content ul {
+    text-align: center;
+}
+
+.footer-content ul li {
+    line-height: 1.6em;
+}
+
+.footer-content ul li:first-child {
+    color: #eee;
+    font-weight: 500;
+}
+
+.footer-content ul li a {
+    font-size: 15px;
+    color: #959595;
+    font-weight: 300;
+}
+
+.community {
+    flex: 2;
+    padding-left: 20px;
+}
+
+.help {
+    flex: 3;
+    padding-right: 20px;
+}
+
+.help li {
+    color: #959595;
+}
+
+.help li:last-child {
+    margin-top: 35px;
+    color: #fff;
+}
+
+
